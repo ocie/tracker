@@ -7,13 +7,25 @@ TODO:
 
 ~~host on https~~
 
+~~build with webpack~~
+
+- add watcher
+
+- add in react
+
+- add in bootstrap
+
 - find and display gps coordinates
+
+- split out vendor js
 
 - save waypoint locally
 
 - list and select waypoint
 
 - navigate to waypoint
+
+- add minification
 
 - cache for offline use
 

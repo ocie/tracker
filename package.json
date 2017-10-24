@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -fr dist",
-    "build": "npm run clean && mkdir dist ; cp index.html dist",
+    "build": "npm run clean && mkdir dist && webpack",
     "deploy": "npm run build && firebase deploy"
   },
   "repository": {
@@ -20,6 +20,15 @@
   },
   "homepage": "https://github.com/ocie/tracker#readme",
   "devDependencies": {
-    "firebase-tools": "^3.13.1"
+    "babel-loader": "^7.1.2",
+    "firebase-tools": "^3.13.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^1.4.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^3.3.7",
+    "react": "^16.0.0"
   }
 }
