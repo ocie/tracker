@@ -1,0 +1,19 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "an HTML-5 gps tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocie/tracker.git"
+  },
+  "author": "Ocie Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocie/tracker/issues"
+  },
+  "homepage": "https://github.com/ocie/tracker#readme"
+}
