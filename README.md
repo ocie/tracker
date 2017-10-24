@@ -5,7 +5,7 @@ a simple html5 app to save and find waypoints
 
 TODO:
 
-~~ - host on https ~~
+~~host on https~~
 
 - find and display gps coordinates
 
