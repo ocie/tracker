@@ -13,7 +13,7 @@ TODO:
 
 ~~add webpack file versioning~~
 
-- configure caching directives
+~~configure caching directives~~
 
 - add in react
 
