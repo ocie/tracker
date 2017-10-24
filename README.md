@@ -9,7 +9,9 @@ TODO:
 
 ~~build with webpack~~
 
-- add watcher
+~~add watcher~~
+
+- add webpack file versioning
 
 - add in react
 

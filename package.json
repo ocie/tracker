@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -fr dist",
     "build": "npm run clean && mkdir dist && webpack",
+    "watch": "webpack-dev-server",
     "deploy": "npm run build && firebase deploy"
   },
   "repository": {
@@ -24,7 +25,8 @@
     "firebase-tools": "^3.13.1",
     "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.8.1",
-    "webpack-cli": "^1.4.2"
+    "webpack-cli": "^1.4.2",
+    "webpack-dev-server": "^2.9.3"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
