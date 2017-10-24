@@ -11,7 +11,9 @@ TODO:
 
 ~~add watcher~~
 
-- add webpack file versioning
+~~add webpack file versioning~~
+
+- configure caching directives
 
 - add in react
 

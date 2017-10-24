@@ -6,7 +6,8 @@ module.exports = {
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.bundle.js'
+        filename: '[name].[chunkhash].js',
+        chunkFilename: '[chunkhash].js'
     },
 
     module: {
@@ -24,5 +25,8 @@ module.exports = {
         colors: true
     },
     devtool: 'source-map',
-    plugins: [new HtmlWebpackPlugin()]
+    plugins: [new HtmlWebpackPlugin(),
+              new webpack.optimize.CommonsChunkPlugin({
+                  names: ["common", "manifest"]
+              })]
 };
