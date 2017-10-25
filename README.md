@@ -21,7 +21,7 @@ TODO:
 
 ~~use dev mode react locally~~
 
-- add in bootstrap
+~~add in bootstrap~~
 
 - find and display gps coordinates
 
