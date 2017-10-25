@@ -17,7 +17,7 @@ TODO:
 
 ~~add in react~~
 
-- configure production mode react
+~~configure production mode react~~
 
 - add in bootstrap
 
