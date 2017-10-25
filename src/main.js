@@ -1,5 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let heading = document.createElement('h1')
-    heading.innerText='Test Page'
-    document.body.appendChild(heading)
-})
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Throwaway from './throwaway.jsx'
+
+ReactDOM.render(
+    <Throwaway />,
+    document.getElementById('root')
+)

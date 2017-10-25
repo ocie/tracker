@@ -15,7 +15,9 @@ TODO:
 
 ~~configure caching directives~~
 
-- add in react
+~~add in react~~
+
+- configure production mode react
 
 - add in bootstrap
 

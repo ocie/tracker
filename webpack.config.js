@@ -13,7 +13,7 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 loader: 'babel-loader',
                 query: {
                     presets: ['es2015']
@@ -25,7 +25,9 @@ module.exports = {
         colors: true
     },
     devtool: 'source-map',
-    plugins: [new HtmlWebpackPlugin(),
+    plugins: [new HtmlWebpackPlugin({
+                template: 'src/index.ejs'
+              }),
               new webpack.optimize.CommonsChunkPlugin({
                   names: ["common", "manifest"]
               })]
