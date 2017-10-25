@@ -19,6 +19,8 @@ TODO:
 
 ~~configure production mode react~~
 
+- use dev mode react locally
+
 - add in bootstrap
 
 - find and display gps coordinates

@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -fr dist",
-    "build": "npm run clean && mkdir dist && webpack",
-    "watch": "webpack-dev-server",
+    "build": "npm run clean && mkdir dist && webpack --config webpack.prod.js",
+    "watch": "webpack-dev-server --open --config webpack.dev.js",
     "deploy": "npm run build && firebase deploy"
   },
   "repository": {
@@ -31,7 +31,8 @@
     "react-dom": "^16.0.0",
     "webpack": "^3.8.1",
     "webpack-cli": "^1.4.2",
-    "webpack-dev-server": "^2.9.3"
+    "webpack-dev-server": "^2.9.3",
+    "webpack-merge": "^4.1.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",

@@ -24,17 +24,10 @@ module.exports = {
     stats: {
         colors: true
     },
-    devtool: 'source-map',
     plugins: [new HtmlWebpackPlugin({
                 template: 'src/index.ejs'
               }),
               new webpack.optimize.CommonsChunkPlugin({
                   names: ["common", "manifest"]
-              }),
-              new webpack.DefinePlugin({
-                'process.env': {
-                  NODE_ENV: JSON.stringify('production')
-                }
-              }),
-              new webpack.optimize.UglifyJsPlugin()]
+              })]
 };
