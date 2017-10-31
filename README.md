@@ -23,7 +23,9 @@ TODO:
 
 ~~add in bootstrap~~
 
-- find and display gps coordinates
+~~find and display gps coordinates~~
+
+- do something sensible if gps functionality is not available
 
 - split out vendor js
 

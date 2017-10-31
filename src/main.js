@@ -1,8 +1,16 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Throwaway from './throwaway.jsx'
+import {render} from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
 
-ReactDOM.render(
-    <Throwaway />,
+import trackerApp from './reducers'
+import App from './components/App'
+
+let store = createStore(trackerApp)
+
+render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
     document.getElementById('root')
 )
